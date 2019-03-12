@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/depengli/Desktop/eos/eosio.contracts
+CMAKE_SOURCE_DIR = /Users/depengli/Desktop/eos/eosio.token
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/depengli/Desktop/eos/eosio.token/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/CMakeFiles /Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/eosio.bios/CMakeFiles/progress.marks
-	cd /Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 eosio.bios/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/CMakeFiles 0
+	cd /Users/depengli/Desktop/eos/eosio.token/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/CMakeFiles /Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/eosio.bios/CMakeFiles/progress.marks
+	cd /Users/depengli/Desktop/eos/eosio.token/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 eosio.bios/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 eosio.bios/clean
+	cd /Users/depengli/Desktop/eos/eosio.token/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 eosio.bios/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 eosio.bios/preinstall
+	cd /Users/depengli/Desktop/eos/eosio.token/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 eosio.bios/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 eosio.bios/preinstall
+	cd /Users/depengli/Desktop/eos/eosio.token/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 eosio.bios/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/depengli/Desktop/eos/eosio.token/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 eosio.bios/CMakeFiles/eosio.bios.wasm.dir/rule:
-	cd /Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 eosio.bios/CMakeFiles/eosio.bios.wasm.dir/rule
+	cd /Users/depengli/Desktop/eos/eosio.token/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 eosio.bios/CMakeFiles/eosio.bios.wasm.dir/rule
 .PHONY : eosio.bios/CMakeFiles/eosio.bios.wasm.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ eosio.bios.wasm: eosio.bios/CMakeFiles/eosio.bios.wasm.dir/rule
 
 # fast build rule for target.
 eosio.bios.wasm/fast:
-	cd /Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug && $(MAKE) -f eosio.bios/CMakeFiles/eosio.bios.wasm.dir/build.make eosio.bios/CMakeFiles/eosio.bios.wasm.dir/build
+	cd /Users/depengli/Desktop/eos/eosio.token/cmake-build-debug && $(MAKE) -f eosio.bios/CMakeFiles/eosio.bios.wasm.dir/build.make eosio.bios/CMakeFiles/eosio.bios.wasm.dir/build
 .PHONY : eosio.bios.wasm/fast
 
 src/eosio.bios.o: src/eosio.bios.cpp.o
@@ -131,7 +131,7 @@ src/eosio.bios.o: src/eosio.bios.cpp.o
 
 # target to build an object file
 src/eosio.bios.cpp.o:
-	cd /Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug && $(MAKE) -f eosio.bios/CMakeFiles/eosio.bios.wasm.dir/build.make eosio.bios/CMakeFiles/eosio.bios.wasm.dir/src/eosio.bios.cpp.o
+	cd /Users/depengli/Desktop/eos/eosio.token/cmake-build-debug && $(MAKE) -f eosio.bios/CMakeFiles/eosio.bios.wasm.dir/build.make eosio.bios/CMakeFiles/eosio.bios.wasm.dir/src/eosio.bios.cpp.o
 .PHONY : src/eosio.bios.cpp.o
 
 src/eosio.bios.i: src/eosio.bios.cpp.i
@@ -140,7 +140,7 @@ src/eosio.bios.i: src/eosio.bios.cpp.i
 
 # target to preprocess a source file
 src/eosio.bios.cpp.i:
-	cd /Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug && $(MAKE) -f eosio.bios/CMakeFiles/eosio.bios.wasm.dir/build.make eosio.bios/CMakeFiles/eosio.bios.wasm.dir/src/eosio.bios.cpp.i
+	cd /Users/depengli/Desktop/eos/eosio.token/cmake-build-debug && $(MAKE) -f eosio.bios/CMakeFiles/eosio.bios.wasm.dir/build.make eosio.bios/CMakeFiles/eosio.bios.wasm.dir/src/eosio.bios.cpp.i
 .PHONY : src/eosio.bios.cpp.i
 
 src/eosio.bios.s: src/eosio.bios.cpp.s
@@ -149,7 +149,7 @@ src/eosio.bios.s: src/eosio.bios.cpp.s
 
 # target to generate assembly for a file
 src/eosio.bios.cpp.s:
-	cd /Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug && $(MAKE) -f eosio.bios/CMakeFiles/eosio.bios.wasm.dir/build.make eosio.bios/CMakeFiles/eosio.bios.wasm.dir/src/eosio.bios.cpp.s
+	cd /Users/depengli/Desktop/eos/eosio.token/cmake-build-debug && $(MAKE) -f eosio.bios/CMakeFiles/eosio.bios.wasm.dir/build.make eosio.bios/CMakeFiles/eosio.bios.wasm.dir/src/eosio.bios.cpp.s
 .PHONY : src/eosio.bios.cpp.s
 
 # Help Target
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/depengli/Desktop/eos/eosio.token/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

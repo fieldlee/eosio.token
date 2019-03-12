@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/depengli/Desktop/eos/eosio.contracts/eosio.wrap/src/eosio.wrap.cpp" "/Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/eosio.wrap/CMakeFiles/eosio.wrap.wasm.dir/src/eosio.wrap.cpp.o"
+  "/Users/depengli/Desktop/eos/eosio.token/eosio.wrap/src/eosio.wrap.cpp" "/Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/eosio.wrap/CMakeFiles/eosio.wrap.wasm.dir/src/eosio.wrap.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

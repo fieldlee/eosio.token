@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/depengli/Desktop/eos/eosio.contracts
+CMAKE_SOURCE_DIR = /Users/depengli/Desktop/eos/eosio.token
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/depengli/Desktop/eos/eosio.token/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include eosio.system/CMakeFiles/eosio.system.wasm.dir/depend.make
@@ -59,16 +59,16 @@ include eosio.system/CMakeFiles/eosio.system.wasm.dir/flags.make
 
 eosio.system/CMakeFiles/eosio.system.wasm.dir/src/eosio.system.cpp.o: eosio.system/CMakeFiles/eosio.system.wasm.dir/flags.make
 eosio.system/CMakeFiles/eosio.system.wasm.dir/src/eosio.system.cpp.o: ../eosio.system/src/eosio.system.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object eosio.system/CMakeFiles/eosio.system.wasm.dir/src/eosio.system.cpp.o"
-	cd /Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/eosio.system && //usr/local/bin/eosio-cpp  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/eosio.system.wasm.dir/src/eosio.system.cpp.o -c /Users/depengli/Desktop/eos/eosio.contracts/eosio.system/src/eosio.system.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object eosio.system/CMakeFiles/eosio.system.wasm.dir/src/eosio.system.cpp.o"
+	cd /Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/eosio.system && //usr/local/bin/eosio-cpp  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/eosio.system.wasm.dir/src/eosio.system.cpp.o -c /Users/depengli/Desktop/eos/eosio.token/eosio.system/src/eosio.system.cpp
 
 eosio.system/CMakeFiles/eosio.system.wasm.dir/src/eosio.system.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/eosio.system.wasm.dir/src/eosio.system.cpp.i"
-	cd /Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/eosio.system && //usr/local/bin/eosio-cpp $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/depengli/Desktop/eos/eosio.contracts/eosio.system/src/eosio.system.cpp > CMakeFiles/eosio.system.wasm.dir/src/eosio.system.cpp.i
+	cd /Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/eosio.system && //usr/local/bin/eosio-cpp $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/depengli/Desktop/eos/eosio.token/eosio.system/src/eosio.system.cpp > CMakeFiles/eosio.system.wasm.dir/src/eosio.system.cpp.i
 
 eosio.system/CMakeFiles/eosio.system.wasm.dir/src/eosio.system.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/eosio.system.wasm.dir/src/eosio.system.cpp.s"
-	cd /Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/eosio.system && //usr/local/bin/eosio-cpp $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/depengli/Desktop/eos/eosio.contracts/eosio.system/src/eosio.system.cpp -o CMakeFiles/eosio.system.wasm.dir/src/eosio.system.cpp.s
+	cd /Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/eosio.system && //usr/local/bin/eosio-cpp $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/depengli/Desktop/eos/eosio.token/eosio.system/src/eosio.system.cpp -o CMakeFiles/eosio.system.wasm.dir/src/eosio.system.cpp.s
 
 # Object files for target eosio.system.wasm
 eosio_system_wasm_OBJECTS = \
@@ -80,8 +80,8 @@ eosio_system_wasm_EXTERNAL_OBJECTS =
 eosio.system/eosio.system.wasm: eosio.system/CMakeFiles/eosio.system.wasm.dir/src/eosio.system.cpp.o
 eosio.system/eosio.system.wasm: eosio.system/CMakeFiles/eosio.system.wasm.dir/build.make
 eosio.system/eosio.system.wasm: eosio.system/CMakeFiles/eosio.system.wasm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable eosio.system.wasm"
-	cd /Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/eosio.system && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/eosio.system.wasm.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable eosio.system.wasm"
+	cd /Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/eosio.system && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/eosio.system.wasm.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 eosio.system/CMakeFiles/eosio.system.wasm.dir/build: eosio.system/eosio.system.wasm
@@ -89,10 +89,10 @@ eosio.system/CMakeFiles/eosio.system.wasm.dir/build: eosio.system/eosio.system.w
 .PHONY : eosio.system/CMakeFiles/eosio.system.wasm.dir/build
 
 eosio.system/CMakeFiles/eosio.system.wasm.dir/clean:
-	cd /Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/eosio.system && $(CMAKE_COMMAND) -P CMakeFiles/eosio.system.wasm.dir/cmake_clean.cmake
+	cd /Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/eosio.system && $(CMAKE_COMMAND) -P CMakeFiles/eosio.system.wasm.dir/cmake_clean.cmake
 .PHONY : eosio.system/CMakeFiles/eosio.system.wasm.dir/clean
 
 eosio.system/CMakeFiles/eosio.system.wasm.dir/depend:
-	cd /Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/depengli/Desktop/eos/eosio.contracts /Users/depengli/Desktop/eos/eosio.contracts/eosio.system /Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug /Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/eosio.system /Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/eosio.system/CMakeFiles/eosio.system.wasm.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/depengli/Desktop/eos/eosio.token/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/depengli/Desktop/eos/eosio.token /Users/depengli/Desktop/eos/eosio.token/eosio.system /Users/depengli/Desktop/eos/eosio.token/cmake-build-debug /Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/eosio.system /Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/eosio.system/CMakeFiles/eosio.system.wasm.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : eosio.system/CMakeFiles/eosio.system.wasm.dir/depend
 

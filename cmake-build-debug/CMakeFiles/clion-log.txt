@@ -1,4 +1,4 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/depengli/Desktop/eos/eosio.contracts
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/depengli/Desktop/eos/eosio.token
 -- The C compiler identification is AppleClang 10.0.0.10001145
 -- The CXX compiler identification is AppleClang 10.0.0.10001145
 -- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
@@ -24,15 +24,15 @@ CMake Warning at CMakeLists.txt:22 (message):
 -- Found Git: /usr/bin/git (found version "2.17.2 (Apple Git-113)") 
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug
+-- Build files have been written to: /Users/depengli/Desktop/eos/eosio.token/cmake-build-debug
 
 Cannot get compiler information:
-	Compiler exited with error code 255: /usr/local/bin/eosio-cpp -xc++ -I/Users/depengli/Desktop/eos/eosio.contracts/eosio.bios/include -O3 -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -abigen -abigen_output=/Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/eosio.bios/eosio.bios.abi -contract eosio.bios -fpch-preprocess -v -dD -E
+	Compiler exited with error code 255: /usr/local/bin/eosio-cpp -xc++ -I/Users/depengli/Desktop/eos/eosio.token/eosio.bios/include -O3 -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -abigen -abigen_output=/Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/eosio.bios/eosio.bios.abi -contract eosio.bios -fpch-preprocess -v -dD -E
 	clang version 7.0.0 (https://github.com/eosio/clang.git 3e38ccb3dacee8c53ed6d3d5a59d1f6d4f0c96cf) (https://github.com/eosio/llvm 798a37dc0de68ba4fd5bb2988e45f7d022b3bb65)
 	Target: wasm32
 	Thread model: single
 	InstalledDir: /usr/local/Cellar/eosio.cdt/1.5.0/opt/eosio.cdt/bin
-	clang-7: warning: /private/var/folders/_6/1t6gpnrd2plczpr8hfp1x_fr0000gn/T/compiler-file8516544555796644171: 'linker' input unused [-Wunused-command-line-argument]
+	clang-7: warning: /private/var/folders/_6/1t6gpnrd2plczpr8hfp1x_fr0000gn/T/compiler-file5137287876990899954: 'linker' input unused [-Wunused-command-line-argument]
 	clang-7: warning: argument unused during compilation: '-ffreestanding' [-Wunused-command-line-argument]
 	clang-7: warning: argument unused during compilation: '-fno-threadsafe-statics' [-Wunused-command-line-argument]
 	clang-7: warning: argument unused during compilation: '-fno-exceptions' [-Wunused-command-line-argument]
@@ -50,17 +50,17 @@ Cannot get compiler information:
 	clang-7: warning: argument unused during compilation: '-dD' [-Wunused-command-line-argument]
 	clang-7: warning: argument unused during compilation: '-D NDEBUG' [-Wunused-command-line-argument]
 	clang-7: warning: argument unused during compilation: '-D ___CIDR_DEFINITIONS_END' [-Wunused-command-line-argument]
-	clang-7: warning: argument unused during compilation: '-I /Users/depengli/Desktop/eos/eosio.contracts/eosio.bios/include' [-Wunused-command-line-argument]
+	clang-7: warning: argument unused during compilation: '-I /Users/depengli/Desktop/eos/eosio.token/eosio.bios/include' [-Wunused-command-line-argument]
 	clang-7: warning: argument unused during compilation: '-O3' [-Wunused-command-line-argument]
 	clang-7: warning: argument unused during compilation: '--std=c++17' [-Wunused-command-line-argument]
 	
 	
-	Compiler exited with error code 255: /usr/local/bin/eosio-cpp -xc++ -I/Users/depengli/Desktop/eos/eosio.contracts/eosio.msig/include -O3 -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -abigen -abigen_output=/Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/eosio.msig/eosio.msig.abi -contract eosio.msig -fpch-preprocess -v -dD -E
+	Compiler exited with error code 255: /usr/local/bin/eosio-cpp -xc++ -I/Users/depengli/Desktop/eos/eosio.token/eosio.msig/include -O3 -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -abigen -abigen_output=/Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/eosio.msig/eosio.msig.abi -contract eosio.msig -fpch-preprocess -v -dD -E
 	clang version 7.0.0 (https://github.com/eosio/clang.git 3e38ccb3dacee8c53ed6d3d5a59d1f6d4f0c96cf) (https://github.com/eosio/llvm 798a37dc0de68ba4fd5bb2988e45f7d022b3bb65)
 	Target: wasm32
 	Thread model: single
 	InstalledDir: /usr/local/Cellar/eosio.cdt/1.5.0/opt/eosio.cdt/bin
-	clang-7: warning: /private/var/folders/_6/1t6gpnrd2plczpr8hfp1x_fr0000gn/T/compiler-file2482495194491207829: 'linker' input unused [-Wunused-command-line-argument]
+	clang-7: warning: /private/var/folders/_6/1t6gpnrd2plczpr8hfp1x_fr0000gn/T/compiler-file8320459847316610814: 'linker' input unused [-Wunused-command-line-argument]
 	clang-7: warning: argument unused during compilation: '-ffreestanding' [-Wunused-command-line-argument]
 	clang-7: warning: argument unused during compilation: '-fno-threadsafe-statics' [-Wunused-command-line-argument]
 	clang-7: warning: argument unused during compilation: '-fno-exceptions' [-Wunused-command-line-argument]
@@ -78,17 +78,17 @@ Cannot get compiler information:
 	clang-7: warning: argument unused during compilation: '-dD' [-Wunused-command-line-argument]
 	clang-7: warning: argument unused during compilation: '-D NDEBUG' [-Wunused-command-line-argument]
 	clang-7: warning: argument unused during compilation: '-D ___CIDR_DEFINITIONS_END' [-Wunused-command-line-argument]
-	clang-7: warning: argument unused during compilation: '-I /Users/depengli/Desktop/eos/eosio.contracts/eosio.msig/include' [-Wunused-command-line-argument]
+	clang-7: warning: argument unused during compilation: '-I /Users/depengli/Desktop/eos/eosio.token/eosio.msig/include' [-Wunused-command-line-argument]
 	clang-7: warning: argument unused during compilation: '-O3' [-Wunused-command-line-argument]
 	clang-7: warning: argument unused during compilation: '--std=c++17' [-Wunused-command-line-argument]
 	
 	
-	Compiler exited with error code 255: /usr/local/bin/eosio-cpp -xc++ -I/Users/depengli/Desktop/eos/eosio.contracts/eosio.system/include -I/Users/depengli/Desktop/eos/eosio.contracts/eosio.system/../eosio.token/include -O3 -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -abigen -abigen_output=/Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/eosio.system/eosio.system.abi -contract eosio.system -fpch-preprocess -v -dD -E
+	Compiler exited with error code 255: /usr/local/bin/eosio-cpp -xc++ -I/Users/depengli/Desktop/eos/eosio.token/eosio.system/include -I/Users/depengli/Desktop/eos/eosio.token/eosio.system/../eosio.token/include -O3 -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -abigen -abigen_output=/Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/eosio.system/eosio.system.abi -contract eosio.system -fpch-preprocess -v -dD -E
 	clang version 7.0.0 (https://github.com/eosio/clang.git 3e38ccb3dacee8c53ed6d3d5a59d1f6d4f0c96cf) (https://github.com/eosio/llvm 798a37dc0de68ba4fd5bb2988e45f7d022b3bb65)
 	Target: wasm32
 	Thread model: single
 	InstalledDir: /usr/local/Cellar/eosio.cdt/1.5.0/opt/eosio.cdt/bin
-	clang-7: warning: /private/var/folders/_6/1t6gpnrd2plczpr8hfp1x_fr0000gn/T/compiler-file3328691576305096370: 'linker' input unused [-Wunused-command-line-argument]
+	clang-7: warning: /private/var/folders/_6/1t6gpnrd2plczpr8hfp1x_fr0000gn/T/compiler-file239429045972139028: 'linker' input unused [-Wunused-command-line-argument]
 	clang-7: warning: argument unused during compilation: '-ffreestanding' [-Wunused-command-line-argument]
 	clang-7: warning: argument unused during compilation: '-fno-threadsafe-statics' [-Wunused-command-line-argument]
 	clang-7: warning: argument unused during compilation: '-fno-exceptions' [-Wunused-command-line-argument]
@@ -106,18 +106,18 @@ Cannot get compiler information:
 	clang-7: warning: argument unused during compilation: '-dD' [-Wunused-command-line-argument]
 	clang-7: warning: argument unused during compilation: '-D NDEBUG' [-Wunused-command-line-argument]
 	clang-7: warning: argument unused during compilation: '-D ___CIDR_DEFINITIONS_END' [-Wunused-command-line-argument]
-	clang-7: warning: argument unused during compilation: '-I /Users/depengli/Desktop/eos/eosio.contracts/eosio.system/include' [-Wunused-command-line-argument]
-	clang-7: warning: argument unused during compilation: '-I /Users/depengli/Desktop/eos/eosio.contracts/eosio.system/../eosio.token/include' [-Wunused-command-line-argument]
+	clang-7: warning: argument unused during compilation: '-I /Users/depengli/Desktop/eos/eosio.token/eosio.system/include' [-Wunused-command-line-argument]
+	clang-7: warning: argument unused during compilation: '-I /Users/depengli/Desktop/eos/eosio.token/eosio.system/../eosio.token/include' [-Wunused-command-line-argument]
 	clang-7: warning: argument unused during compilation: '-O3' [-Wunused-command-line-argument]
 	clang-7: warning: argument unused during compilation: '--std=c++17' [-Wunused-command-line-argument]
 	
 	
-	Compiler exited with error code 255: /usr/local/bin/eosio-cpp -xc++ -I/Users/depengli/Desktop/eos/eosio.contracts/eosio.token/include -O3 -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -abigen -abigen_output=/Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/eosio.token/eosio.token.abi -contract eosio.token -fpch-preprocess -v -dD -E
+	Compiler exited with error code 255: /usr/local/bin/eosio-cpp -xc++ -I/Users/depengli/Desktop/eos/eosio.token/eosio.token/include -O3 -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -abigen -abigen_output=/Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/eosio.token/eosio.token.abi -contract eosio.token -fpch-preprocess -v -dD -E
 	clang version 7.0.0 (https://github.com/eosio/clang.git 3e38ccb3dacee8c53ed6d3d5a59d1f6d4f0c96cf) (https://github.com/eosio/llvm 798a37dc0de68ba4fd5bb2988e45f7d022b3bb65)
 	Target: wasm32
 	Thread model: single
 	InstalledDir: /usr/local/Cellar/eosio.cdt/1.5.0/opt/eosio.cdt/bin
-	clang-7: warning: /private/var/folders/_6/1t6gpnrd2plczpr8hfp1x_fr0000gn/T/compiler-file2505636505904796462: 'linker' input unused [-Wunused-command-line-argument]
+	clang-7: warning: /private/var/folders/_6/1t6gpnrd2plczpr8hfp1x_fr0000gn/T/compiler-file7948940695214695132: 'linker' input unused [-Wunused-command-line-argument]
 	clang-7: warning: argument unused during compilation: '-ffreestanding' [-Wunused-command-line-argument]
 	clang-7: warning: argument unused during compilation: '-fno-threadsafe-statics' [-Wunused-command-line-argument]
 	clang-7: warning: argument unused during compilation: '-fno-exceptions' [-Wunused-command-line-argument]
@@ -135,17 +135,17 @@ Cannot get compiler information:
 	clang-7: warning: argument unused during compilation: '-dD' [-Wunused-command-line-argument]
 	clang-7: warning: argument unused during compilation: '-D NDEBUG' [-Wunused-command-line-argument]
 	clang-7: warning: argument unused during compilation: '-D ___CIDR_DEFINITIONS_END' [-Wunused-command-line-argument]
-	clang-7: warning: argument unused during compilation: '-I /Users/depengli/Desktop/eos/eosio.contracts/eosio.token/include' [-Wunused-command-line-argument]
+	clang-7: warning: argument unused during compilation: '-I /Users/depengli/Desktop/eos/eosio.token/eosio.token/include' [-Wunused-command-line-argument]
 	clang-7: warning: argument unused during compilation: '-O3' [-Wunused-command-line-argument]
 	clang-7: warning: argument unused during compilation: '--std=c++17' [-Wunused-command-line-argument]
 	
 	
-	Compiler exited with error code 255: /usr/local/bin/eosio-cpp -xc++ -I/Users/depengli/Desktop/eos/eosio.contracts/eosio.wrap/include -O3 -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -abigen -abigen_output=/Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/eosio.wrap/eosio.wrap.abi -contract eosio.wrap -fpch-preprocess -v -dD -E
+	Compiler exited with error code 255: /usr/local/bin/eosio-cpp -xc++ -I/Users/depengli/Desktop/eos/eosio.token/eosio.wrap/include -O3 -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -abigen -abigen_output=/Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/eosio.wrap/eosio.wrap.abi -contract eosio.wrap -fpch-preprocess -v -dD -E
 	clang version 7.0.0 (https://github.com/eosio/clang.git 3e38ccb3dacee8c53ed6d3d5a59d1f6d4f0c96cf) (https://github.com/eosio/llvm 798a37dc0de68ba4fd5bb2988e45f7d022b3bb65)
 	Target: wasm32
 	Thread model: single
 	InstalledDir: /usr/local/Cellar/eosio.cdt/1.5.0/opt/eosio.cdt/bin
-	clang-7: warning: /private/var/folders/_6/1t6gpnrd2plczpr8hfp1x_fr0000gn/T/compiler-file7362746534974185151: 'linker' input unused [-Wunused-command-line-argument]
+	clang-7: warning: /private/var/folders/_6/1t6gpnrd2plczpr8hfp1x_fr0000gn/T/compiler-file1885070468603128190: 'linker' input unused [-Wunused-command-line-argument]
 	clang-7: warning: argument unused during compilation: '-ffreestanding' [-Wunused-command-line-argument]
 	clang-7: warning: argument unused during compilation: '-fno-threadsafe-statics' [-Wunused-command-line-argument]
 	clang-7: warning: argument unused during compilation: '-fno-exceptions' [-Wunused-command-line-argument]
@@ -163,7 +163,7 @@ Cannot get compiler information:
 	clang-7: warning: argument unused during compilation: '-dD' [-Wunused-command-line-argument]
 	clang-7: warning: argument unused during compilation: '-D NDEBUG' [-Wunused-command-line-argument]
 	clang-7: warning: argument unused during compilation: '-D ___CIDR_DEFINITIONS_END' [-Wunused-command-line-argument]
-	clang-7: warning: argument unused during compilation: '-I /Users/depengli/Desktop/eos/eosio.contracts/eosio.wrap/include' [-Wunused-command-line-argument]
+	clang-7: warning: argument unused during compilation: '-I /Users/depengli/Desktop/eos/eosio.token/eosio.wrap/include' [-Wunused-command-line-argument]
 	clang-7: warning: argument unused during compilation: '-O3' [-Wunused-command-line-argument]
 	clang-7: warning: argument unused during compilation: '--std=c++17' [-Wunused-command-line-argument]
 	

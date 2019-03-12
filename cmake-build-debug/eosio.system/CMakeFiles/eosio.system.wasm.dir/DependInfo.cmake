@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/depengli/Desktop/eos/eosio.contracts/eosio.system/src/eosio.system.cpp" "/Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/eosio.system/CMakeFiles/eosio.system.wasm.dir/src/eosio.system.cpp.o"
+  "/Users/depengli/Desktop/eos/eosio.token/eosio.system/src/eosio.system.cpp" "/Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/eosio.system/CMakeFiles/eosio.system.wasm.dir/src/eosio.system.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

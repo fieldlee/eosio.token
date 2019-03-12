@@ -1,4 +1,4 @@
-# Install script for directory: /Users/depengli/Desktop/eos/eosio.contracts
+# Install script for directory: /Users/depengli/Desktop/eos/eosio.token
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,11 +34,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/eosio.bios/cmake_install.cmake")
-  include("/Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/eosio.msig/cmake_install.cmake")
-  include("/Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/eosio.wrap/cmake_install.cmake")
-  include("/Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/eosio.system/cmake_install.cmake")
-  include("/Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/eosio.token/cmake_install.cmake")
+  include("/Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/eosio.bios/cmake_install.cmake")
+  include("/Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/eosio.msig/cmake_install.cmake")
+  include("/Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/eosio.wrap/cmake_install.cmake")
+  include("/Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/eosio.system/cmake_install.cmake")
+  include("/Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/eosio.token/cmake_install.cmake")
 
 endif()
 
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

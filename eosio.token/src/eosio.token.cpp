@@ -116,7 +116,7 @@ void token::retire( asset quantity, string memo )
         });
     }
 
-    void token::lock( asset quantity, string memo )
+    void token::lock(name lock, asset quantity, string memo )
     {
 
         auto sym = quantity.symbol;
@@ -132,7 +132,7 @@ void token::retire( asset quantity, string memo )
 
         require_auth( st.issuer );
 
-        accounts from_acnts( _self, st.issuer.value );
+        accounts from_acnts( _self, lock.issuer.value );
 
         const auto& from = from_acnts.get( quantity.symbol.code().raw(), "no balance object found" );
 

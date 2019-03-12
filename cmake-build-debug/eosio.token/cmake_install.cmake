@@ -1,4 +1,4 @@
-# Install script for directory: /Users/depengli/Desktop/eos/eosio.contracts/eosio.token
+# Install script for directory: /Users/depengli/Desktop/eos/eosio.token/eosio.token
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/depengli/Desktop/eos/eosio.contracts
+CMAKE_SOURCE_DIR = /Users/depengli/Desktop/eos/eosio.token
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/depengli/Desktop/eos/eosio.token/cmake-build-debug
 
 # Utility rule file for contracts_unit_tests.
 
@@ -65,56 +65,56 @@ CMakeFiles/contracts_unit_tests-complete: contracts_unit_tests-prefix/src/contra
 CMakeFiles/contracts_unit_tests-complete: contracts_unit_tests-prefix/src/contracts_unit_tests-stamp/contracts_unit_tests-build
 CMakeFiles/contracts_unit_tests-complete: contracts_unit_tests-prefix/src/contracts_unit_tests-stamp/contracts_unit_tests-install
 CMakeFiles/contracts_unit_tests-complete: contracts_unit_tests-prefix/src/contracts_unit_tests-stamp/contracts_unit_tests-test
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'contracts_unit_tests'"
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E make_directory /Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/CMakeFiles
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/CMakeFiles/contracts_unit_tests-complete
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/contracts_unit_tests-prefix/src/contracts_unit_tests-stamp/contracts_unit_tests-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'contracts_unit_tests'"
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E make_directory /Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/CMakeFiles
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/CMakeFiles/contracts_unit_tests-complete
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/contracts_unit_tests-prefix/src/contracts_unit_tests-stamp/contracts_unit_tests-done
 
 contracts_unit_tests-prefix/src/contracts_unit_tests-stamp/contracts_unit_tests-install: contracts_unit_tests-prefix/src/contracts_unit_tests-stamp/contracts_unit_tests-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No install step for 'contracts_unit_tests'"
-	cd /Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/tests && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo_append
-	cd /Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/tests && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/contracts_unit_tests-prefix/src/contracts_unit_tests-stamp/contracts_unit_tests-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No install step for 'contracts_unit_tests'"
+	cd /Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/tests && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo_append
+	cd /Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/tests && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/contracts_unit_tests-prefix/src/contracts_unit_tests-stamp/contracts_unit_tests-install
 
 contracts_unit_tests-prefix/src/contracts_unit_tests-stamp/contracts_unit_tests-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'contracts_unit_tests'"
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E make_directory /Users/depengli/Desktop/eos/eosio.contracts/tests
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E make_directory /Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/tests
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E make_directory /Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/contracts_unit_tests-prefix
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E make_directory /Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/contracts_unit_tests-prefix/tmp
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E make_directory /Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/contracts_unit_tests-prefix/src/contracts_unit_tests-stamp
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E make_directory /Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/contracts_unit_tests-prefix/src
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/contracts_unit_tests-prefix/src/contracts_unit_tests-stamp/contracts_unit_tests-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'contracts_unit_tests'"
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E make_directory /Users/depengli/Desktop/eos/eosio.token/tests
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E make_directory /Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/tests
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E make_directory /Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/contracts_unit_tests-prefix
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E make_directory /Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/contracts_unit_tests-prefix/tmp
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E make_directory /Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/contracts_unit_tests-prefix/src/contracts_unit_tests-stamp
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E make_directory /Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/contracts_unit_tests-prefix/src
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/contracts_unit_tests-prefix/src/contracts_unit_tests-stamp/contracts_unit_tests-mkdir
 
 contracts_unit_tests-prefix/src/contracts_unit_tests-stamp/contracts_unit_tests-download: contracts_unit_tests-prefix/src/contracts_unit_tests-stamp/contracts_unit_tests-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'contracts_unit_tests'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'contracts_unit_tests'"
 	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo_append
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/contracts_unit_tests-prefix/src/contracts_unit_tests-stamp/contracts_unit_tests-download
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/contracts_unit_tests-prefix/src/contracts_unit_tests-stamp/contracts_unit_tests-download
 
 contracts_unit_tests-prefix/src/contracts_unit_tests-stamp/contracts_unit_tests-update: contracts_unit_tests-prefix/src/contracts_unit_tests-stamp/contracts_unit_tests-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No update step for 'contracts_unit_tests'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No update step for 'contracts_unit_tests'"
 	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo_append
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/contracts_unit_tests-prefix/src/contracts_unit_tests-stamp/contracts_unit_tests-update
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/contracts_unit_tests-prefix/src/contracts_unit_tests-stamp/contracts_unit_tests-update
 
 contracts_unit_tests-prefix/src/contracts_unit_tests-stamp/contracts_unit_tests-patch: contracts_unit_tests-prefix/src/contracts_unit_tests-stamp/contracts_unit_tests-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "No patch step for 'contracts_unit_tests'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "No patch step for 'contracts_unit_tests'"
 	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo_append
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/contracts_unit_tests-prefix/src/contracts_unit_tests-stamp/contracts_unit_tests-patch
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/contracts_unit_tests-prefix/src/contracts_unit_tests-stamp/contracts_unit_tests-patch
 
 contracts_unit_tests-prefix/src/contracts_unit_tests-stamp/contracts_unit_tests-configure: contracts_unit_tests-prefix/tmp/contracts_unit_tests-cfgcmd.txt
 contracts_unit_tests-prefix/src/contracts_unit_tests-stamp/contracts_unit_tests-configure: contracts_unit_tests-prefix/src/contracts_unit_tests-stamp/contracts_unit_tests-update
 contracts_unit_tests-prefix/src/contracts_unit_tests-stamp/contracts_unit_tests-configure: contracts_unit_tests-prefix/src/contracts_unit_tests-stamp/contracts_unit_tests-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'contracts_unit_tests'"
-	cd /Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/tests && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DEOSIO_ROOT= "-GCodeBlocks - Unix Makefiles" /Users/depengli/Desktop/eos/eosio.contracts/tests
-	cd /Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/tests && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/contracts_unit_tests-prefix/src/contracts_unit_tests-stamp/contracts_unit_tests-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'contracts_unit_tests'"
+	cd /Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/tests && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DEOSIO_ROOT= "-GCodeBlocks - Unix Makefiles" /Users/depengli/Desktop/eos/eosio.token/tests
+	cd /Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/tests && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/contracts_unit_tests-prefix/src/contracts_unit_tests-stamp/contracts_unit_tests-configure
 
 contracts_unit_tests-prefix/src/contracts_unit_tests-stamp/contracts_unit_tests-build: contracts_unit_tests-prefix/src/contracts_unit_tests-stamp/contracts_unit_tests-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing build step for 'contracts_unit_tests'"
-	cd /Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/tests && $(MAKE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing build step for 'contracts_unit_tests'"
+	cd /Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/tests && $(MAKE)
 
 contracts_unit_tests-prefix/src/contracts_unit_tests-stamp/contracts_unit_tests-test: contracts_unit_tests-prefix/src/contracts_unit_tests-stamp/contracts_unit_tests-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "No test step for 'contracts_unit_tests'"
-	cd /Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/tests && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo_append
-	cd /Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/tests && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/contracts_unit_tests-prefix/src/contracts_unit_tests-stamp/contracts_unit_tests-test
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "No test step for 'contracts_unit_tests'"
+	cd /Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/tests && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo_append
+	cd /Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/tests && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/contracts_unit_tests-prefix/src/contracts_unit_tests-stamp/contracts_unit_tests-test
 
 contracts_unit_tests: CMakeFiles/contracts_unit_tests
 contracts_unit_tests: CMakeFiles/contracts_unit_tests-complete
@@ -140,6 +140,6 @@ CMakeFiles/contracts_unit_tests.dir/clean:
 .PHONY : CMakeFiles/contracts_unit_tests.dir/clean
 
 CMakeFiles/contracts_unit_tests.dir/depend:
-	cd /Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/depengli/Desktop/eos/eosio.contracts /Users/depengli/Desktop/eos/eosio.contracts /Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug /Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug /Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/CMakeFiles/contracts_unit_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/depengli/Desktop/eos/eosio.token/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/depengli/Desktop/eos/eosio.token /Users/depengli/Desktop/eos/eosio.token /Users/depengli/Desktop/eos/eosio.token/cmake-build-debug /Users/depengli/Desktop/eos/eosio.token/cmake-build-debug /Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/CMakeFiles/contracts_unit_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/contracts_unit_tests.dir/depend
 

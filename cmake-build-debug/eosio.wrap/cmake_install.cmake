@@ -1,4 +1,4 @@
-# Install script for directory: /Users/depengli/Desktop/eos/eosio.contracts/eosio.wrap
+# Install script for directory: /Users/depengli/Desktop/eos/eosio.token/eosio.wrap
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

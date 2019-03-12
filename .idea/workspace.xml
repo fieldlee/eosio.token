@@ -17,7 +17,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e93340f6-aa35-4620-a353-7a812b9bb19e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/eosio.token/include/eosio.token/eosio.token.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/eosio.token/include/eosio.token/eosio.token.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/contracts_unit_tests.dir/Labels.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/contracts_unit_tests.dir/Labels.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/contracts_unit_tests.dir/Labels.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/contracts_unit_tests.dir/Labels.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/contracts_unit_tests.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/contracts_unit_tests.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/eosio.bios/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/eosio.bios/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/eosio.bios/CMakeFiles/eosio.bios.wasm.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/eosio.bios/CMakeFiles/eosio.bios.wasm.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/eosio.bios/CMakeFiles/eosio.bios.wasm.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/eosio.bios/CMakeFiles/eosio.bios.wasm.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/eosio.bios/CMakeFiles/eosio.bios.wasm.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/eosio.bios/CMakeFiles/eosio.bios.wasm.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/eosio.bios/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/eosio.bios/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/eosio.bios/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/eosio.bios/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/eosio.msig/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/eosio.msig/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/eosio.msig/CMakeFiles/eosio.msig.wasm.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/eosio.msig/CMakeFiles/eosio.msig.wasm.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/eosio.msig/CMakeFiles/eosio.msig.wasm.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/eosio.msig/CMakeFiles/eosio.msig.wasm.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/eosio.msig/CMakeFiles/eosio.msig.wasm.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/eosio.msig/CMakeFiles/eosio.msig.wasm.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/eosio.msig/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/eosio.msig/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/eosio.msig/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/eosio.msig/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/eosio.system/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/eosio.system/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/eosio.system/CMakeFiles/eosio.system.wasm.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/eosio.system/CMakeFiles/eosio.system.wasm.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/eosio.system/CMakeFiles/eosio.system.wasm.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/eosio.system/CMakeFiles/eosio.system.wasm.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/eosio.system/CMakeFiles/eosio.system.wasm.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/eosio.system/CMakeFiles/eosio.system.wasm.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/eosio.system/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/eosio.system/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/eosio.system/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/eosio.system/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/eosio.token/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/eosio.token/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/eosio.token/CMakeFiles/eosio.token.wasm.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/eosio.token/CMakeFiles/eosio.token.wasm.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/eosio.token/CMakeFiles/eosio.token.wasm.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/eosio.token/CMakeFiles/eosio.token.wasm.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/eosio.token/CMakeFiles/eosio.token.wasm.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/eosio.token/CMakeFiles/eosio.token.wasm.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/eosio.token/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/eosio.token/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/eosio.token/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/eosio.token/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/eosio.wrap/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/eosio.wrap/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/eosio.wrap/CMakeFiles/eosio.wrap.wasm.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/eosio.wrap/CMakeFiles/eosio.wrap.wasm.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/eosio.wrap/CMakeFiles/eosio.wrap.wasm.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/eosio.wrap/CMakeFiles/eosio.wrap.wasm.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/eosio.wrap/CMakeFiles/eosio.wrap.wasm.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/eosio.wrap/CMakeFiles/eosio.wrap.wasm.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/eosio.wrap/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/eosio.wrap/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/eosio.wrap/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/eosio.wrap/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/eosio_contracts.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/eosio_contracts.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eosio.token/src/eosio.token.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/eosio.token/src/eosio.token.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -29,12 +71,12 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/eosio.token/src/eosio.token.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-156">
-              <caret line="114" column="39" selection-start-line="114" selection-start-column="39" selection-end-line="114" selection-end-column="39" />
+            <state relative-caret-position="480">
+              <caret line="140" column="31" selection-start-line="140" selection-start-column="31" selection-end-line="140" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -42,7 +84,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eosio.token/eosio.token.abi">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
+            <state relative-caret-position="1235">
               <caret line="65" column="29" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="29" />
             </state>
           </provider>
@@ -51,7 +93,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eosio.token/include/eosio.token/eosio.token.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
+            <state relative-caret-position="1406">
               <caret line="74" column="31" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="31" />
             </state>
           </provider>
@@ -94,29 +136,16 @@
           <expand>
             <path>
               <item name="eosio_contracts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eosio.contracts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eosio_contracts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eosio.contracts" type="462c0819:PsiDirectoryNode" />
               <item name="eosio.token" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eosio_contracts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eosio.contracts" type="462c0819:PsiDirectoryNode" />
               <item name="eosio.token" type="462c0819:PsiDirectoryNode" />
-              <item name="include" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eosio_contracts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eosio.contracts" type="462c0819:PsiDirectoryNode" />
-              <item name="eosio.token" type="462c0819:PsiDirectoryNode" />
-              <item name="include" type="462c0819:PsiDirectoryNode" />
               <item name="eosio.token" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eosio_contracts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eosio.contracts" type="462c0819:PsiDirectoryNode" />
+              <item name="eosio.token" type="462c0819:PsiDirectoryNode" />
               <item name="eosio.token" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -195,24 +224,20 @@
       <option name="presentableId" value="Default" />
       <updated>1552037260271</updated>
       <workItem from="1552037261876" duration="9178000" />
+      <workItem from="1552354131504" duration="124000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9178000" />
+    <option name="totallyTimeSpent" value="9302000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="736" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.092084005" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="CMake" weight="0.32919255" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -220,34 +245,39 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="CMake" order="11" weight="0.32919255" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/eosio.token/src/eosio.token.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="140" column="31" selection-start-line="140" selection-start-column="31" selection-end-line="140" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/eosio.token/eosio.token.abi">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
+        <state relative-caret-position="1235">
           <caret line="65" column="29" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eosio.token/include/eosio.token/eosio.token.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
+        <state relative-caret-position="1406">
           <caret line="74" column="31" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eosio.token/src/eosio.token.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-156">
-          <caret line="114" column="39" selection-start-line="114" selection-start-column="39" selection-end-line="114" selection-end-column="39" />
         </state>
       </provider>
     </entry>

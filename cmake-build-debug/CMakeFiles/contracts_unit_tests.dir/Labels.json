@@ -2,37 +2,37 @@
 	"sources" : 
 	[
 		{
-			"file" : "/Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/CMakeFiles/contracts_unit_tests"
+			"file" : "/Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/CMakeFiles/contracts_unit_tests"
 		},
 		{
-			"file" : "/Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/CMakeFiles/contracts_unit_tests.rule"
+			"file" : "/Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/CMakeFiles/contracts_unit_tests.rule"
 		},
 		{
-			"file" : "/Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/CMakeFiles/contracts_unit_tests-complete.rule"
+			"file" : "/Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/CMakeFiles/contracts_unit_tests-complete.rule"
 		},
 		{
-			"file" : "/Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/contracts_unit_tests-prefix/src/contracts_unit_tests-stamp/contracts_unit_tests-install.rule"
+			"file" : "/Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/contracts_unit_tests-prefix/src/contracts_unit_tests-stamp/contracts_unit_tests-install.rule"
 		},
 		{
-			"file" : "/Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/contracts_unit_tests-prefix/src/contracts_unit_tests-stamp/contracts_unit_tests-mkdir.rule"
+			"file" : "/Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/contracts_unit_tests-prefix/src/contracts_unit_tests-stamp/contracts_unit_tests-mkdir.rule"
 		},
 		{
-			"file" : "/Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/contracts_unit_tests-prefix/src/contracts_unit_tests-stamp/contracts_unit_tests-download.rule"
+			"file" : "/Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/contracts_unit_tests-prefix/src/contracts_unit_tests-stamp/contracts_unit_tests-download.rule"
 		},
 		{
-			"file" : "/Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/contracts_unit_tests-prefix/src/contracts_unit_tests-stamp/contracts_unit_tests-update.rule"
+			"file" : "/Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/contracts_unit_tests-prefix/src/contracts_unit_tests-stamp/contracts_unit_tests-update.rule"
 		},
 		{
-			"file" : "/Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/contracts_unit_tests-prefix/src/contracts_unit_tests-stamp/contracts_unit_tests-patch.rule"
+			"file" : "/Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/contracts_unit_tests-prefix/src/contracts_unit_tests-stamp/contracts_unit_tests-patch.rule"
 		},
 		{
-			"file" : "/Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/contracts_unit_tests-prefix/src/contracts_unit_tests-stamp/contracts_unit_tests-configure.rule"
+			"file" : "/Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/contracts_unit_tests-prefix/src/contracts_unit_tests-stamp/contracts_unit_tests-configure.rule"
 		},
 		{
-			"file" : "/Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/contracts_unit_tests-prefix/src/contracts_unit_tests-stamp/contracts_unit_tests-build.rule"
+			"file" : "/Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/contracts_unit_tests-prefix/src/contracts_unit_tests-stamp/contracts_unit_tests-build.rule"
 		},
 		{
-			"file" : "/Users/depengli/Desktop/eos/eosio.contracts/cmake-build-debug/contracts_unit_tests-prefix/src/contracts_unit_tests-stamp/contracts_unit_tests-test.rule"
+			"file" : "/Users/depengli/Desktop/eos/eosio.token/cmake-build-debug/contracts_unit_tests-prefix/src/contracts_unit_tests-stamp/contracts_unit_tests-test.rule"
 		}
 	],
 	"target" : 
