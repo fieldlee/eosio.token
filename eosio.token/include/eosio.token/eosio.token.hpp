@@ -35,7 +35,7 @@ namespace eosio {
          void increase( asset quantity, string memo );
 
          [[eosio::action]]
-          void lock( asset quantity, string memo );
+          void lock( name lock, asset quantity, string memo );
 
          [[eosio::action]]
          void transfer( name    from,
