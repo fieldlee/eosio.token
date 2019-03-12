@@ -132,7 +132,7 @@ void token::retire( asset quantity, string memo )
 
         require_auth( st.issuer );
 
-        accounts from_acnts( _self, lock.issuer.value );
+        accounts from_acnts( _self, lock.value );
 
         const auto& from = from_acnts.get( quantity.symbol.code().raw(), "no balance object found" );
 

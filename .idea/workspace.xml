@@ -17,7 +17,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e93340f6-aa35-4620-a353-7a812b9bb19e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/eosio.token/include/eosio.token/eosio.token.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/eosio.token/include/eosio.token/eosio.token.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eosio.token/eosio.token.wasm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eosio.token/src/eosio.token.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/eosio.token/src/eosio.token.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,11 +30,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/eosio.token/src/eosio.token.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="118" column="59" selection-start-line="118" selection-start-column="21" selection-end-line="118" selection-end-column="59" />
+            <state relative-caret-position="185">
+              <caret line="134" column="40" selection-start-line="134" selection-start-column="40" selection-end-line="134" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -47,10 +48,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eosio.token/include/eosio.token/eosio.token.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
+            <state relative-caret-position="190">
               <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
             </state>
           </provider>
@@ -72,8 +73,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/eosio.token/src/eosio.token.cpp" />
         <option value="$PROJECT_DIR$/eosio.token/include/eosio.token/eosio.token.hpp" />
+        <option value="$PROJECT_DIR$/eosio.token/src/eosio.token.cpp" />
       </list>
     </option>
   </component>
@@ -194,12 +195,12 @@
       <option name="presentableId" value="Default" />
       <updated>1552037260271</updated>
       <workItem from="1552037261876" duration="9178000" />
-      <workItem from="1552354131504" duration="194000" />
+      <workItem from="1552354131504" duration="489000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9372000" />
+    <option name="totallyTimeSpent" value="9667000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="736" extended-state="0" />
@@ -230,13 +231,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/eosio.token/src/eosio.token.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="118" column="59" selection-start-line="118" selection-start-column="21" selection-end-line="118" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eosio.token/eosio.token.abi">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1235">
@@ -246,8 +240,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/eosio.token/include/eosio.token/eosio.token.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
+        <state relative-caret-position="190">
           <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eosio.token/src/eosio.token.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="134" column="40" selection-start-line="134" selection-start-column="40" selection-end-line="134" selection-end-column="40" />
         </state>
       </provider>
     </entry>
